@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { WithOutUseMemo } from './withOutUseMemo/withoutusememo'
+ import { CounterAppWithUseMemo } from './withUseMemo/usememo'
+//  import { WithOutUseMemo } from './withOutUseMemo/withoutusememo'
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <div className="App">
-    <WithOutUseMemo/>
+     {/* <WithOutUseMemo/>  */}
+     <CounterAppWithUseMemo/> 
     </div>
   )
 }
